@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3265B81A1D92B100379AF3 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3265B71A1D92B100379AF3 /* TabBarController.m */; };
+		CA3265BB1A1E958200379AF3 /* ChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3265BA1A1E958200379AF3 /* ChatTextView.m */; };
+		CA4078BD1A19719B000E43C9 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4078BC1A19719B000E43C9 /* HomeScreenViewController.m */; };
+		CA4078C01A1971C0000E43C9 /* ChatTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4078BF1A1971C0000E43C9 /* ChatTableTableViewController.m */; };
+		CA4078C41A197237000E43C9 /* ChatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4078C31A197237000E43C9 /* ChatsModel.m */; };
+		CA4078C81A197517000E43C9 /* ChatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4078C71A197517000E43C9 /* ChatObject.m */; };
+		CA4078CB1A19884B000E43C9 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4078CA1A19884B000E43C9 /* ChatViewController.m */; };
+		CAE22E771A196CA500CC5EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE22E761A196CA500CC5EA4 /* main.m */; };
+		CAE22E7A1A196CA500CC5EA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE22E791A196CA500CC5EA4 /* AppDelegate.m */; };
+		CAE22E7D1A196CA500CC5EA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE22E7C1A196CA500CC5EA4 /* ViewController.m */; };
+		CAE22E801A196CA500CC5EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE22E7E1A196CA500CC5EA4 /* Main.storyboard */; };
+		CAE22E821A196CA500CC5EA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE22E811A196CA500CC5EA4 /* Images.xcassets */; };
+		CAE22E851A196CA500CC5EA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE22E831A196CA500CC5EA4 /* LaunchScreen.xib */; };
+		CAE22E911A196CA500CC5EA4 /* KinXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE22E901A196CA500CC5EA4 /* KinXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE22E8B1A196CA500CC5EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE22E691A196CA500CC5EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE22E701A196CA500CC5EA4;
+			remoteInfo = KinX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3265B61A1D92B100379AF3 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		CA3265B71A1D92B100379AF3 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		CA3265B91A1E958200379AF3 /* ChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTextView.h; sourceTree = "<group>"; };
+		CA3265BA1A1E958200379AF3 /* ChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTextView.m; sourceTree = "<group>"; };
+		CA4078BB1A19719B000E43C9 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		CA4078BC1A19719B000E43C9 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		CA4078BE1A1971C0000E43C9 /* ChatTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableTableViewController.h; sourceTree = "<group>"; };
+		CA4078BF1A1971C0000E43C9 /* ChatTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableTableViewController.m; sourceTree = "<group>"; };
+		CA4078C21A197237000E43C9 /* ChatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsModel.h; sourceTree = "<group>"; };
+		CA4078C31A197237000E43C9 /* ChatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsModel.m; sourceTree = "<group>"; };
+		CA4078C61A197516000E43C9 /* ChatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatObject.h; sourceTree = "<group>"; };
+		CA4078C71A197517000E43C9 /* ChatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatObject.m; sourceTree = "<group>"; };
+		CA4078C91A19884B000E43C9 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		CA4078CA1A19884B000E43C9 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		CAE22E711A196CA500CC5EA4 /* KinX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE22E751A196CA500CC5EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE22E761A196CA500CC5EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE22E781A196CA500CC5EA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAE22E791A196CA500CC5EA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAE22E7B1A196CA500CC5EA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAE22E7C1A196CA500CC5EA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAE22E7F1A196CA500CC5EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE22E811A196CA500CC5EA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAE22E841A196CA500CC5EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAE22E8A1A196CA500CC5EA4 /* KinXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE22E8F1A196CA500CC5EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE22E901A196CA500CC5EA4 /* KinXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE22E6E1A196CA500CC5EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE22E871A196CA500CC5EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4078C11A1971CB000E43C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA3265B61A1D92B100379AF3 /* TabBarController.h */,
+				CA3265B71A1D92B100379AF3 /* TabBarController.m */,
+				CA4078C91A19884B000E43C9 /* ChatViewController.h */,
+				CA4078CA1A19884B000E43C9 /* ChatViewController.m */,
+				CA3265B91A1E958200379AF3 /* ChatTextView.h */,
+				CA3265BA1A1E958200379AF3 /* ChatTextView.m */,
+				CA4078BE1A1971C0000E43C9 /* ChatTableTableViewController.h */,
+				CA4078BF1A1971C0000E43C9 /* ChatTableTableViewController.m */,
+				CA4078BB1A19719B000E43C9 /* HomeScreenViewController.h */,
+				CA4078BC1A19719B000E43C9 /* HomeScreenViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CA4078C51A19723B000E43C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA4078C21A197237000E43C9 /* ChatsModel.h */,
+				CA4078C31A197237000E43C9 /* ChatsModel.m */,
+				CA4078C61A197516000E43C9 /* ChatObject.h */,
+				CA4078C71A197517000E43C9 /* ChatObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CAE22E681A196CA500CC5EA4 = {
+			isa = PBXGroup;
+			children = (
+				CAE22E731A196CA500CC5EA4 /* KinX */,
+				CAE22E8D1A196CA500CC5EA4 /* KinXTests */,
+				CAE22E721A196CA500CC5EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE22E721A196CA500CC5EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE22E711A196CA500CC5EA4 /* KinX.app */,
+				CAE22E8A1A196CA500CC5EA4 /* KinXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE22E731A196CA500CC5EA4 /* KinX */ = {
+			isa = PBXGroup;
+			children = (
+				CAE22E781A196CA500CC5EA4 /* AppDelegate.h */,
+				CAE22E791A196CA500CC5EA4 /* AppDelegate.m */,
+				CAE22E7B1A196CA500CC5EA4 /* ViewController.h */,
+				CAE22E7C1A196CA500CC5EA4 /* ViewController.m */,
+				CAE22E7E1A196CA500CC5EA4 /* Main.storyboard */,
+				CA4078C51A19723B000E43C9 /* Model */,
+				CA4078C11A1971CB000E43C9 /* Controllers */,
+				CAE22E811A196CA500CC5EA4 /* Images.xcassets */,
+				CAE22E831A196CA500CC5EA4 /* LaunchScreen.xib */,
+				CAE22E741A196CA500CC5EA4 /* Supporting Files */,
+			);
+			path = KinX;
+			sourceTree = "<group>";
+		};
+		CAE22E741A196CA500CC5EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE22E751A196CA500CC5EA4 /* Info.plist */,
+				CAE22E761A196CA500CC5EA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE22E8D1A196CA500CC5EA4 /* KinXTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE22E901A196CA500CC5EA4 /* KinXTests.m */,
+				CAE22E8E1A196CA500CC5EA4 /* Supporting Files */,
+			);
+			path = KinXTests;
+			sourceTree = "<group>";
+		};
+		CAE22E8E1A196CA500CC5EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE22E8F1A196CA500CC5EA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE22E701A196CA500CC5EA4 /* KinX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE22E941A196CA500CC5EA4 /* Build configuration list for PBXNativeTarget "KinX" */;
+			buildPhases = (
+				CAE22E6D1A196CA500CC5EA4 /* Sources */,
+				CAE22E6E1A196CA500CC5EA4 /* Frameworks */,
+				CAE22E6F1A196CA500CC5EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinX;
+			productName = KinX;
+			productReference = CAE22E711A196CA500CC5EA4 /* KinX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE22E891A196CA500CC5EA4 /* KinXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE22E971A196CA500CC5EA4 /* Build configuration list for PBXNativeTarget "KinXTests" */;
+			buildPhases = (
+				CAE22E861A196CA500CC5EA4 /* Sources */,
+				CAE22E871A196CA500CC5EA4 /* Frameworks */,
+				CAE22E881A196CA500CC5EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE22E8C1A196CA500CC5EA4 /* PBXTargetDependency */,
+			);
+			name = KinXTests;
+			productName = KinXTests;
+			productReference = CAE22E8A1A196CA500CC5EA4 /* KinXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE22E691A196CA500CC5EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brandon Beckhardt";
+				TargetAttributes = {
+					CAE22E701A196CA500CC5EA4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CAE22E891A196CA500CC5EA4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CAE22E701A196CA500CC5EA4;
+					};
+				};
+			};
+			buildConfigurationList = CAE22E6C1A196CA500CC5EA4 /* Build configuration list for PBXProject "KinX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE22E681A196CA500CC5EA4;
+			productRefGroup = CAE22E721A196CA500CC5EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE22E701A196CA500CC5EA4 /* KinX */,
+				CAE22E891A196CA500CC5EA4 /* KinXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE22E6F1A196CA500CC5EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE22E801A196CA500CC5EA4 /* Main.storyboard in Resources */,
+				CAE22E851A196CA500CC5EA4 /* LaunchScreen.xib in Resources */,
+				CAE22E821A196CA500CC5EA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE22E881A196CA500CC5EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE22E6D1A196CA500CC5EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4078C41A197237000E43C9 /* ChatsModel.m in Sources */,
+				CAE22E7D1A196CA500CC5EA4 /* ViewController.m in Sources */,
+				CA4078C01A1971C0000E43C9 /* ChatTableTableViewController.m in Sources */,
+				CA3265B81A1D92B100379AF3 /* TabBarController.m in Sources */,
+				CA4078BD1A19719B000E43C9 /* HomeScreenViewController.m in Sources */,
+				CAE22E7A1A196CA500CC5EA4 /* AppDelegate.m in Sources */,
+				CA4078C81A197517000E43C9 /* ChatObject.m in Sources */,
+				CA4078CB1A19884B000E43C9 /* ChatViewController.m in Sources */,
+				CAE22E771A196CA500CC5EA4 /* main.m in Sources */,
+				CA3265BB1A1E958200379AF3 /* ChatTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE22E861A196CA500CC5EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE22E911A196CA500CC5EA4 /* KinXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE22E8C1A196CA500CC5EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE22E701A196CA500CC5EA4 /* KinX */;
+			targetProxy = CAE22E8B1A196CA500CC5EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE22E7E1A196CA500CC5EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE22E7F1A196CA500CC5EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE22E831A196CA500CC5EA4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE22E841A196CA500CC5EA4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE22E921A196CA500CC5EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAE22E931A196CA500CC5EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE22E951A196CA500CC5EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KinX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE22E961A196CA500CC5EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KinX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAE22E981A196CA500CC5EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KinXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinX.app/KinX";
+			};
+			name = Debug;
+		};
+		CAE22E991A196CA500CC5EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KinXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinX.app/KinX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE22E6C1A196CA500CC5EA4 /* Build configuration list for PBXProject "KinX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE22E921A196CA500CC5EA4 /* Debug */,
+				CAE22E931A196CA500CC5EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE22E941A196CA500CC5EA4 /* Build configuration list for PBXNativeTarget "KinX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE22E951A196CA500CC5EA4 /* Debug */,
+				CAE22E961A196CA500CC5EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE22E971A196CA500CC5EA4 /* Build configuration list for PBXNativeTarget "KinXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE22E981A196CA500CC5EA4 /* Debug */,
+				CAE22E991A196CA500CC5EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE22E691A196CA500CC5EA4 /* Project object */;
+}
